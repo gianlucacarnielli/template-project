@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<toc version="2.0">
+    <tocitem target="Introduction.html">Curve Fitter
+        <tocitem target="UseApp.html">How To Use The App</tocitem>
+        <tocitem target="UpdateDoc.html">Update Documentation</tocitem>
+        <tocitem target="Deployment.html">Deployment</tocitem>
+    </tocitem>
+</toc>

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB 2024a"><title>Deployment</title><style type="text/css">.rtcContent { padding: 30px; } .S0 { margin: 3px 10px 5px 4px; padding: 0px; line-height: 28.8px; min-height: 0px; white-space: pre-wrap; color: rgb(192, 76, 11); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 24px; font-weight: 400; text-align: left;  }
+.S1 { margin: 20px 10px 5px 4px; padding: 0px; line-height: 20px; min-height: 0px; white-space: pre-wrap; color: rgb(33, 33, 33); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 20px; font-weight: 700; text-align: left;  }
+.S2 { margin: 2px 10px 9px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: pre-wrap; color: rgb(33, 33, 33); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: 400; text-align: left;  }
+.S3 { margin: 10px 0px 20px; padding-left: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 14px;  }
+.S4 { margin-left: 56px; line-height: 21px; min-height: 0px; text-align: left; white-space: pre-wrap;  }</style></head><body><div class = rtcContent><h1  class = 'S0'><span>Deployment</span></h1><h2  class = 'S1'><span>Standalone App</span></h2><div  class = 'S2'><span>To deploy the application as a standalone executable, press the "Deploy Standalone App" project shortcut. This will automatically create a standalone executable in the folder </span><span style=' font-style: italic;'>deployment/standalone</span><span>. To run the standalone executable download the </span><a href = "https://it.mathworks.com/help/compiler/install-the-matlab-runtime.html"><span>MATLAB Runtime</span></a><span>.</span></div><h2  class = 'S1'><span>Web App</span></h2><div  class = 'S2'><span>To deploy the application as a web app, proceed as follows:</span></div><ol  class = 'S3'><li  class = 'S4'><span>Install MATLAB Web App Server (or the </span><a href = "https://it.mathworks.com/help/compiler/webapps/install-matlab-web-app-server.html"><span>development version</span></a><span> in MATLAB Compiler)</span></li><li  class = 'S4'><span>In </span><span style=' font-family: monospace;'>deployment.json</span><span> (in the deployment folder) specify the server folder to which deploy the web app, namely the CTF archive.</span></li><li  class = 'S4'><span>Run the project shortcut "Deployment Web App". The Compiler should automatically identify all dependencies and include them in CTF archive.</span></li></ol><h2  class = 'S1'><span>About </span><span style=' font-family: monospace;'>deployment.json</span></h2><div  class = 'S2'><span>This file allows to store deployment-related information, such as output directories, additional required files, and compilation options.</span></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+%% Deployment
+%% Standalone App
+% To deploy the application as a standalone executable, press the "Deploy Standalone 
+% App" project shortcut. This will automatically create a standalone executable 
+% in the folder _deployment/standalone_. To run the standalone executable download 
+% the <https://it.mathworks.com/help/compiler/install-the-matlab-runtime.html 
+% MATLAB Runtime>.
+%% Web App
+% To deploy the application as a web app, proceed as follows:
+%% 
+% # Install MATLAB Web App Server (or the <https://it.mathworks.com/help/compiler/webapps/install-matlab-web-app-server.html 
+% development version> in MATLAB Compiler)
+% # In |deployment.json| (in the deployment folder) specify the server folder 
+% to which deploy the web app, namely the CTF archive.
+% # Run the project shortcut "Deployment Web App". The Compiler should automatically 
+% identify all dependencies and include them in CTF archive.
+%% About |deployment.json|
+% This file allows to store deployment-related information, such as output directories, 
+% additional required files, and compilation options.
+##### SOURCE END #####
+-->
+</div></body></html>
