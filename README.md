@@ -1,4 +1,7 @@
 # Template Project
+
+Open the app in MATLAB Online: [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=gianlucacarnielli/template-project&project=template-project.prj&file=code/ui/launcher.mlapp&focus=true)
+
 ## Overview
 This is a template project which can be used mainly for two purposes:
 * Learn different tools and practices related to software development, such as projects, custom documentation, advanced app development, testing, OOP;
